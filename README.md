@@ -29,7 +29,7 @@
 
 4. **RecyclerView з динамічною сіткою (`RecyclerActivity`, `MedicineRecyclerAdapter`)**:
    - Підтримка двох режимів відображення: **Список (LinearLayoutManager)** та **Сітка 2 колонки (GridLayoutManager)**.
-   - Динамічне переключення макетів (`item_medicine.xml` та `item_medicine_grid.xml`) через перевизначення методу `getItemViewType()`.
+   - Динамічне перемикання макетів залежно від режиму відображення (`item_medicine.xml` та `item_medicine_grid.xml`).
 
 5. **Сучасний дизайн у стилі Material Design 3**:
    - Використано `MaterialCardView` із заокругленими кутами (`12dp`/`14dp`), теньми та витонченими рамками.
@@ -51,7 +51,7 @@
 
 1. **Клонувати репозиторій:**
    ```bash
-   git clone https://github.com/your-username/PharmacyCatalog.git
+   git clone https://github.com/Solipsist-crypto/pharmacy-catalog.git
    ```
 2. **Відкрити в Android Studio:**
    - Оберіть **File -> Open...** та виберіть папку проєкту `PharmacyCatalog`.
