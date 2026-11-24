@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PharmacyCatalog</string>
+    <string name="title_catalog">Інтернет-Аптека 💊</string>
+    <string name="label_category">Категорія:</string>
+    <string name="hint_search">Пошук ліків...</string>
+    <string name="btn_to_recycler">Перейти до RecyclerView (Сітка / Список)</string>
+    <string name="btn_toggle_layout">Перемкнути список / сітку</string>
+    <string name="title_recycler_demo">Демонстрація RecyclerView</string>
+
+    <string-array name="categories">
+        <item>Всі</item>
+        <item>Антибіотики</item>
+        <item>Анальгетики</item>
+        <item>Вітаміни</item>
+        <item>Протизастудні</item>
+    </string-array>
+</resources>
